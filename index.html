@@ -11,6 +11,30 @@
 			background: url(this.jpg) no-repeat;
 			background-size: cover;
 		}
+		.loader1 {
+						width: 120px;
+			height: 120px;
+			border-radius: 50%;
+			border-top: 5px solid green;
+			border-bottom: 5px solid white;
+			float: right;
+			font-size: 2em;
+			background: url(m.jpg) no-repeat;
+			background-size: cover;
+
+			
+			
+			-webkit-animation: spin 2s linear infinite;
+			animation: spin  2s linear infinite;
+		}
+		@-webkit-keyframes spin {
+			0% {-webkit-transform: rotate(0deg); }
+			100% {-webkit-transform: rotate(360deg); }
+			};
+		@ keyframes spin {
+			0% {transform: rotate(0deg); }
+			100% {transform: rotate(360deg); }
+			};
 		</style>
 		<script>      
 			setTimeout(wakeUpUser, 5000);      
@@ -47,7 +71,7 @@
 				xI5BUjVSiRmMi2ygdqc3mB4fMpeECkHyDH8lcW2riN5Y+94NQnPQqG4H/DXOPw35
 				CUdei2x/TvDuWVAaMlJPMuWQKnfzUyJwjQkhL+NjdHmU8DBeiCEgC74DyVfSnURK
 				dbsRTVuKvpoMQeDxjTd7DF9OShEHVVOXvDbMSxS6TiDV5Mu2CHQCyFN+KFuUj1R9
-				E+oj3Lpqs9gTMyr0/V8nxiSMwq3q8V7Agh17UXm3WrfqkbEY6weqwb9Xyf6N4Ldv
+				E+oj3Lpqs9gTMyr0/V8nxiSMwq3q8V7Agh17UXm3WrfqkbEY6weqwb9Xyf6N4Ldv    <div class='loader1'></div>
 				x8xFjrMIx1I6h6KZLdqXO/mrhMJRvRLS3BDo0cLFbl+7zQNMoqgnaB0f4ZiOZRTc
 				4Pf4QL3LfF6LOrc39Q5NlN2Ordv0pN+R3ZgaFhN+nNvHyyazBmka/Vakv0WK2fPN
 				AHurUHyygwi7XyBo24JF34kmBX4NND+795UJd3ETWJVa8g44B4nQS/O6+nnPV3Hg
