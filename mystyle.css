@@ -1,0 +1,70 @@
+body {
+  background: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#header a:hover {
+	color: #FFF;
+}
+
+#bg-img {
+/*	background: url('images/bg.jpg');
+*/	background-repeat: no-repeat;
+	background-size: 100%;
+	max-height: 500px;
+	min-height: 400px;
+}
+
+#About {
+	margin-top: -250px;
+	padding-top: 20px;
+}
+
+#About .fa {
+	color: #FFF;
+}
+
+#About span {
+	padding: 10px 20px 10px 20px;
+}
+
+#About hr {
+	border-width: 3px;
+	margin: 5px;
+}
+
+}
+#paragraph {
+	padding: 40px;
+	font-family: sans-serif;
+}
+#Skills span {
+	padding: 10px 20px 10px 20px;
+	margin-top: 70px;
+}
+
+#Skills hr {
+	border-width: 3px;
+	margin: 5px;
+}
+
+#Projects span {
+	padding: 10px 20px 10px 20px;
+	margin-top: 5px;
+}
+
+#Projects hr {
+	border-width: 3px;
+	margin: 5px;
+}
+
+#Contact span {
+	padding: 10px 20px 10px 20px;
+	margin-top: 5px;
+}
+#contact hr {
+	border-width: 3px;
+	margin: 5px;
+}
+
