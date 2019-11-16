@@ -10,57 +10,52 @@
 	<link rel="stylesheet" href="blog.css">
   <link rel="stylesheet" href="font-awesome.css">
 </head>
-<body>
-	<div class="container">
-  <header class="blog-header py-3">
-    <div class="row flex-nowrap justify-content-between align-items-center">
-      <div class="col-4 pt-1">
-        <a class="text-muted" href="#">Subscribe</a>
+<body class="bg-light">
+  <div id="header">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+      <div class="container">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#Navbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a href="#" class="navbar-brand"><h3></h3></a>
+        <div class="collapse navbar-collapse" id="Navbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a href="#" class="nav-link text-white"><h5>News & Facts</h5></a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-white"><h5>Python</h5></a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-white"><h5>PHP</h5></a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-white"><h5>SQL</h5></a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-white"><h5>JavaScript</h5></a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-white"><h5>jQuery</h5></a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-white"><h5>Bootstrap</h5></a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-white"><h5>Linux</h5></a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-white"><h5>CSS3</h5></a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-white"><h5>HTML</h5></a></li>
+          </ul>
+        </div>
       </div>
-      <div class="col-4 text-center">
-        <a class="blog-header-logo text-dark" href="#">Mega Programmer</a>
-      </div>
-      <div class="col-4 d-flex justify-content-end align-items-center">
-        <a class="text-muted" href="#">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img" viewBox="0 0 24 24" focusable="false"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"/><path d="M21 21l-5.2-5.2"/></svg>
-        </a>
-        <a class="btn btn-sm btn-info btn-outline-secondary mr-4 text-white" href="#">Log In</a>
-        <a class="btn btn-sm btn-info btn-outline-secondary text-white" href="#">Sign up</a>
-      </div>
-    </div>
-  </header>
-
-  <div class="nav-scroller py-1 mb-2">
-    <nav class="nav d-flex justify-content-between bg-light">
-      <a class="p-2 text-muted" href="#">Programming</a>
-      <a class="p-2 text-muted" href="#">Ethiopia</a>
-      <a class="p-2 text-muted" href="#">Technology</a>
-      <a class="p-2 text-muted" href="#">Design</a>
-      <a class="p-2 text-muted" href="#">Culture</a>
-      <a class="p-2 text-muted" href="#">Business</a>
-      <a class="p-2 text-muted" href="#">Politics</a>
-      <a class="p-2 text-muted" href="#">Opinion</a>
-      <a class="p-2 text-muted" href="#">Science</a>
-      <a class="p-2 text-muted" href="#">Health</a>
-      <a class="p-2 text-muted" href="#">Style</a>
-      <a class="p-2 text-muted" href="#">Travel</a>
+      <form class="form-inline d-none d-lg-block" action="#" onsubmit="return myfunction ();">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search...">
+        <button class="btn btn-info btn-outline-light" type="submit">Search</button>
+      </form>
     </nav>
   </div>
-
-  <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
-    <div class="col-md-6 px-0">
-      <h1 class="display-4 font-italic">Programming for fun and profit</h1>
-      <p class="lead my-3">.</p>
-      <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue reading...</a></p>
+  <div>
+    <div style="height: 65px;">
+    </div>
+    <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark" class="bk-img" style="background-image: url(images/command.png)">
+      <div class="col-md-6 px-0">
+        <h1 class="display-4 font-italic">Linux command line tutorials</h1>
+        <p class="lead my-3">.</p>
+        <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue reading...</a></p>
+      </div>
     </div>
   </div>
-
   <div class="row mb-2">
     <div class="col-md-6">
       <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-        <div class="col p-4 d-flex flex-column position-static">
-          <strong class="d-inline-block mb-2 text-primary">World</strong>
-          <h3 class="mb-0">Programming News</h3>
+        <div class="col p-4 d-flex flex-column position-static bg-dark text-white">
+          <strong class="d-inline-block mb-2 text-primary">Linux</strong>
+          <h3 class="mb-0">Linux command line <br>part 1:</h3>
           <div class="mb-1 text-muted">Nov 12</div>
           <p class="card-text mb-auto">nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
           <a href="#" class="stretched-link">Continue reading</a>
@@ -72,9 +67,39 @@
     </div>
     <div class="col-md-6">
       <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-        <div class="col p-4 d-flex flex-column position-static">
-          <strong class="d-inline-block mb-2 text-success">Design</strong>
-          <h3 class="mb-0">Web Design</h3>
+        <div class="col p-4 d-flex flex-column position-static bg-dark text-white">
+          <strong class="d-inline-block mb-2 text-success">Linux</strong>
+          <h3 class="mb-0">Troubleshooting common linux problems</h3>
+          <div class="mb-1 text-muted">Nov 11</div>
+          <p class="mb-auto">nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+          <a href="#" class="stretched-link">Continue reading</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          {% include icons/placeholder.svg width="200" height="250" background="#55595c" color="#eceeef" text="Thumbnail" %}
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="row mb-2">
+    <div class="col-md-6">
+      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static bg-dark text-white">
+          <strong class="d-inline-block mb-2 text-primary">Linux</strong>
+          <h3 class="mb-0">How to install UBUNTU Server in VM?</h3>
+          <div class="mb-1 text-muted">Nov 12</div>
+          <p class="card-text mb-auto">nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+          <a href="#" class="stretched-link">Continue reading</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          {% include icons/placeholder.svg width="200" height="250" background="#55595c" color="#eceeef" text="Thumbnail" %}
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static bg-dark text-white">
+          <strong class="d-inline-block mb-2 text-success">Linux</strong>
+          <h3 class="mb-0">How to fully update and upgrade Debian linux?</h3>
           <div class="mb-1 text-muted">Nov 11</div>
           <p class="mb-auto">nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
           <a href="#" class="stretched-link">Continue reading</a>
@@ -197,7 +222,6 @@
   </div><!-- /.row -->
 
 </main><!-- /.container -->
-
 <footer class="blog-footer">
   <p>Blogging site <a href="http://www.megacore.cf/">megacore.cf</a> by <a href="https://twitter.com/">@Mega</a>.</p>
   <p>
